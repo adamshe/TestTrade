@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="positionsTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="balancesTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System" name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="orderBookTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="level2TabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtSmOE.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtAlerts.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAGAEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAAMBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE3MzU3PC9fRXh0ZW50WD48X0V4
+        dGVudFk+MTAwMjg8L19FeHRlbnRZPjxfU3RvY2tQcm9wcz4yPC9fU3RvY2tQcm9wcz48Q2FwdGlvbj5B
+        bGVydHM8L0NhcHRpb24+PENhcHRpb25CYXJWaXNpYmxlPjA8L0NhcHRpb25CYXJWaXNpYmxlPjxDYXB0
+        aW9uRm9ybWF0PkFsZXJ0czwvQ2FwdGlvbkZvcm1hdD48L1RFU1Q+Cw==
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8PDw8PDw8PDw8PAAAA8PDw8P
+        Dw8PDw8PDwD/AAAAAAAAAAAAAAAAAADw/wAAD/////////////8PD/AAAA/////////////wDw/wAAAA
+        /wAAAAAAAAAAAPD/AAAAAP8PAAAAAAAAAADw/wAAAAAP8A8AAAAAAAAPD/AAAAAAD/DwAAAAAAAADw/w
+        AAAAAAD/APAAAAAAAPD/AAAAAAAA/w8AAAAAAADw/wAAAAAAAA/wDwAAAAAPD/AAAAAAAAAP8PAAAAAA
+        Dw/wAAAAAAAAAP8A8AAAAPD/AAAAAAAAAAD/DwAAAADw/wAAAAAAAAAAD/APAAAPD/AAAAAAAAAAAA/w
+        8AAADw/wAAAAAAAAAAAA/wDwAPD/AAAAAAAAAAAAAP8PAADw/wAAAAAAAAAAAAAP8PAPD/AAAAAAAAAA
+        AAAAD/APDw/wAAAAAAAAAAAAAAD/APD/AAAAAAAAAAAAAAAA/w8A/wAAAAAAAAAAAAAAAA/wD/AAAAAA
+        AAAAAAAAAAAP8P/wAAAAAAAAAAAAAAAAAP8PAAAAAAAAAAAAAAAAAAD/DwAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////8AAAB+AAAAPAAAABgAAAAcAA
+        AAPAAAAD4AAAB+A//gfwH/wP8B/8D/gP+B/4D/gf/AfwP/wH8D/+A+B//gPgf/8BwP//AcD//4CB//+A
+        gf//wAP//8AD///gB///4Af///AP///wD///+B////gf///8P////////////w==
+</value>
+  </data>
+  <data name="$this.Name" xml:space="preserve">
+    <value>NavigatorForm</value>
+  </data>
+  <data name="ordersTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabControl.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtPositionsCtrl.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtLevel2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="orderBookTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtBalances.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAgAEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAGsBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE3MzU3PC9fRXh0ZW50WD48X0V4
+        dGVudFk+MTAwMjg8L19FeHRlbnRZPjxfU3RvY2tQcm9wcz4yPC9fU3RvY2tQcm9wcz48Q2FwdGlvbj5C
+        YWxhbmNlcyAoTm8gQWNjb3VudHMpIDwvQ2FwdGlvbj48Q2FwdGlvbkJhclZpc2libGU+MDwvQ2FwdGlv
+        bkJhclZpc2libGU+PENhcHRpb25Gb3JtYXQ+QmFsYW5jZXMgKCUlQWNjb3VudFNlbWlEZWxpbWl0ZWQl
+        JSkgJSVBQ0NUVFlQRSUlPC9DYXB0aW9uRm9ybWF0PjxBY2NvdW50U2VtaURlbGltaXRlZD48L0FjY291
+        bnRTZW1pRGVsaW1pdGVkPjwvVEVTVD4L
+</value>
+  </data>
+  <data name="positionsTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtAlerts.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtOpenOrdersCtrl.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtOpenOrdersCtrl.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAhgEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAHEBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE3MzU3PC9fRXh0ZW50WD48X0V4
+        dGVudFk+MTAwMjg8L19FeHRlbnRZPjxfU3RvY2tQcm9wcz4yPC9fU3RvY2tQcm9wcz48Q2FwdGlvbj5P
+        cGVuIE9yZGVycyAoTm8gQWNjb3VudHMpIDwvQ2FwdGlvbj48Q2FwdGlvbkJhclZpc2libGU+MDwvQ2Fw
+        dGlvbkJhclZpc2libGU+PENhcHRpb25Gb3JtYXQ+T3BlbiBPcmRlcnMgKCUlQWNjb3VudFNlbWlEZWxp
+        bWl0ZWQlJSkgJSVBQ0NUVFlQRSUlPC9DYXB0aW9uRm9ybWF0PjxBY2NvdW50U2VtaURlbGltaXRlZD48
+        L0FjY291bnRTZW1pRGVsaW1pdGVkPjwvVEVTVD4L
+</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabControl.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="alertsTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="mbtWatch.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtOrderBook.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAgQEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAGwBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE1NDUyPC9fRXh0ZW50WD48X0V4
+        dGVudFk+OTYwNDwvX0V4dGVudFk+PF9TdG9ja1Byb3BzPjI8L19TdG9ja1Byb3BzPjxDYXB0aW9uPk9y
+        ZGVyYm9vayAoTm8gQWNjb3VudHMpIDwvQ2FwdGlvbj48Q2FwdGlvbkJhclZpc2libGU+MDwvQ2FwdGlv
+        bkJhclZpc2libGU+PENhcHRpb25Gb3JtYXQ+T3JkZXJib29rICglJUFjY291bnRTZW1pRGVsaW1pdGVk
+        JSUpICUlQUNDVFRZUEUlJTwvQ2FwdGlvbkZvcm1hdD48QWNjb3VudFNlbWlEZWxpbWl0ZWQ+PC9BY2Nv
+        dW50U2VtaURlbGltaXRlZD48L1RFU1Q+Cw==
+</value>
+  </data>
+  <data name="watchListTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="mbtWatch.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="alertsTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ordersTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtSmOE.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="watchListTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="balancesTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="orderBookTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="level2TabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ordersTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtSmOE.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAmwEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAIYBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE1NDUyPC9fRXh0ZW50WD48X0V4
+        dGVudFk+MjY0NjwvX0V4dGVudFk+PF9TdG9ja1Byb3BzPjI8L19TdG9ja1Byb3BzPjxDYXB0aW9uPk9y
+        ZGVyIEVudHJ5IChObyBBY2NvdW50cykgPC9DYXB0aW9uPjxDYXB0aW9uQmFyVmlzaWJsZT4wPC9DYXB0
+        aW9uQmFyVmlzaWJsZT48Q2FwdGlvbkZvcm1hdD5PcmRlciBFbnRyeSAoJSVBY2NvdW50U2VtaURlbGlt
+        aXRlZCUlKSAlJUFDQ1RUWVBFJSU8L0NhcHRpb25Gb3JtYXQ+PEFjY291bnRTZW1pRGVsaW1pdGVkPjwv
+        QWNjb3VudFNlbWlEZWxpbWl0ZWQ+PFRlbXBsYXRlPjA8L1RlbXBsYXRlPjwvVEVTVD4L
+</value>
+  </data>
+  <data name="balancesTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="watchListTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="alertsTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtWatch.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAzgEAAAIB
+        AAAAAQAAAAAAAAAAAAAAALkBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE1NDUyPC9fRXh0ZW50WD48X0V4
+        dGVudFk+Njc3MzwvX0V4dGVudFk+PF9TdG9ja1Byb3BzPjI8L19TdG9ja1Byb3BzPjxDYXB0aW9uPldh
+        dGNobGlzdCAtICAoTm8gQWNjb3VudHMpIDwvQ2FwdGlvbj48Q2FwdGlvbkJhclZpc2libGU+MDwvQ2Fw
+        dGlvbkJhclZpc2libGU+PENhcHRpb25Gb3JtYXQ+V2F0Y2hsaXN0IC0gJSVXYXRjaGxpc3QlJSAoJSVB
+        Y2NvdW50U2VtaURlbGltaXRlZCUlKSAlJUFDQ1RUWVBFJSU8L0NhcHRpb25Gb3JtYXQ+PEFjY291bnRT
+        ZW1pRGVsaW1pdGVkPjwvQWNjb3VudFNlbWlEZWxpbWl0ZWQ+PE9FVGVtcGxhdGU+NDI5NDk2NzI5NTwv
+        T0VUZW1wbGF0ZT48V2F0Y2hsaXN0PjwvV2F0Y2hsaXN0PjwvVEVTVD4L
+</value>
+  </data>
+  <data name="level2TabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="positionsTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtOpenOrdersCtrl.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtPositionsCtrl.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="orderBookTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtBalances.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtAlerts.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabControl.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtPositionsCtrl.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtOrderBook.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="orderBookTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ordersTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtOrderBook.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtOrderBook.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>Invariant Language (Invariant Country)</value>
+  </data>
+  <data name="positionsTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtLevel2.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAOEBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE3OTkyPC9fRXh0ZW50WD48X0V4
+        dGVudFk+OTE4MTwvX0V4dGVudFk+PF9TdG9ja1Byb3BzPjI8L19TdG9ja1Byb3BzPjxDYXB0aW9uPkxl
+        dmVsIElJIC0gIChObyBBY2NvdW50cykgPC9DYXB0aW9uPjxDYXB0aW9uQmFyVmlzaWJsZT4wPC9DYXB0
+        aW9uQmFyVmlzaWJsZT48Q2FwdGlvbkZvcm1hdD5MZXZlbCBJSSAtICUlU3ltYm9sJSUgKCUlQWNjb3Vu
+        dFNlbWlEZWxpbWl0ZWQlJSkgJSVBQ0NUVFlQRSUlPC9DYXB0aW9uRm9ybWF0PjxBY2NvdW50U2VtaURl
+        bGltaXRlZD48L0FjY291bnRTZW1pRGVsaW1pdGVkPjxPRVRlbXBsYXRlPjA8L09FVGVtcGxhdGU+PE9F
+        SGVpZ2h0PjEwMTwvT0VIZWlnaHQ+PFFRSGVpZ2h0Pjc4PC9RUUhlaWdodD48VGlja2VyV2lkdGg+MTI1
+        PC9UaWNrZXJXaWR0aD48L1RFU1Q+Cw==
+</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="level2TabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="mbtBalances.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtWatch.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="balancesTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="alertsTabPage.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="orderBookTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tabControl.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="positionsTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="balancesTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtAlerts.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ordersTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="watchListTabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtLevel2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="balancesTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtBalances.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="level2TabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="watchListTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="level2TabPage.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ordersTabPage.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="alertsTabPage.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mbtPositionsCtrl.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAApQEAAAIB
+        AAAAAQAAAAAAAAAAAAAAAJABAAA8P3htbCB2ZXJzaW9uPSIxLjAiIHN0YW5kYWxvbmU9InllcyI/PjxU
+        RVNUPjxfVmVyc2lvbj42NTUzNjwvX1ZlcnNpb24+PF9FeHRlbnRYPjE3MzU3PC9fRXh0ZW50WD48X0V4
+        dGVudFk+MTAwMjg8L19FeHRlbnRZPjxfU3RvY2tQcm9wcz4yPC9fU3RvY2tQcm9wcz48Q2FwdGlvbj5Q
+        b3NpdGlvbnMgKE5vIEFjY291bnRzKSA8L0NhcHRpb24+PENhcHRpb25CYXJWaXNpYmxlPjA8L0NhcHRp
+        b25CYXJWaXNpYmxlPjxDYXB0aW9uRm9ybWF0PlBvc2l0aW9ucyAoJSVBY2NvdW50U2VtaURlbGltaXRl
+        ZCUlKSAlJUFDQ1RUWVBFJSU8L0NhcHRpb25Gb3JtYXQ+PEFjY291bnRTZW1pRGVsaW1pdGVkPjwvQWNj
+        b3VudFNlbWlEZWxpbWl0ZWQ+PE9FVGVtcGxhdGU+NDI5NDk2NzI5NTwvT0VUZW1wbGF0ZT48L1RFU1Q+
+        Cw==
+</value>
+  </data>
+  <data name="mbtLevel2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="watchListTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="positionsTabPage.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mbtOpenOrdersCtrl.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="alertsTabPage.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mbtSmOE.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C57E4CF-F990-43B8-8415-9A914B7FE46B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>iTrading.Core</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iTrading.Core</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/TradeMagic.Cbi/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\CommonBin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+      <HintPath>System.Configuration.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+      <HintPath>System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kernel\AbortEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Account.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItemTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItemTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItemTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountItemTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\AccountUpdateEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ActionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ActionTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ActionTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ActionTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ActionTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ClassId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ConnectionStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ConnectionStatusDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ConnectionStatusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ConnectionStatusEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ConnectionStatusId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\CTOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Currency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\CurrencyDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\CurrencyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\CurrencyEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\CurrencyId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\DividendDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\DtnOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ErrorArgsEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ErrorCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ITradingErrorEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ESignalOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Exchange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExchangeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExchangeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExchangeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExchangeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Execution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExecutionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExecutionUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ExecutionUpdateEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\FeatureType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\FeatureTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\FeatureTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\FeatureTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\FeatureTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IAdapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IBLogLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IBOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IDb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ILoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IMarketData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IMarketDepth.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IOrderChange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IProgress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\IQuotes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ITradingSerializable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LicenseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LicenseTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LicenseTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LookupPolicy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LookupPolicyDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\LookupPolicyId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataBuf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataItemEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDataTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepth.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthBuf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthItemEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketDepthRowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketPositionDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketPositionEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketPositionEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MarketPositionId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\MbtOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ModeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ModeTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ModeTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsEventArgsCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsItemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsItemTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsItemTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsItemTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\NewsItemTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Operation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OptionsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Order.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStateDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStateEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStateId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStatusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStatusEventCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderStatusEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\OrderTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\PatsOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\PositionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\PositionUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\PositionUpdateEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kernel\ProviderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ProviderTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ProviderTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kernel\Request.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Right.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\RightDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\RightId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SimulationAccountOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SimulationSymbolOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Simulator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SplitDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\StreamingRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\StreamingRequestDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\Symbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolTypeEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SymbolTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\SynchronizeInvoke.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimeInForce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimeInForceDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimeInForceEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimeInForceEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimeInForceId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimerEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TimerEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ITradingBaseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TMException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TMInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kernel\TMTraceSwitch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TraceLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TraceLevelDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TraceLevelIds.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\TrackOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\ValuesCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel\YahooOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chart\ChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Chart\ChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\IndicatorSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\Level.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chart\LevelCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chart\SeriesCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountItemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountItemTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComAccountUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComActionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComActionTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComBars.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComBarUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComConnection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComConnectionStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComConnectionStatusDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComConnectionStatusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComCTOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComCurrency.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComCurrencyDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComDividendDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComDtnOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComErrorEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComESignalOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExchange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExchangeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExchangeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExecution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExecutionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComExecutionEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComFeatureType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComFeatureTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComGlobals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComIBOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComLicenseType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComLicenseTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComLookupPolicy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComLookupPolicyDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDataCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDataEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDataTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDepth.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDepthCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDepthEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDepthRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketDepthRowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketPositionDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMarketPositionEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComMbtOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComModeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComModeTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComNewsEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComNewsEventArgsCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComNewsItemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComNewsItemTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOptionsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderStateDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderStatusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderStatusEventCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComOrderTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPatsOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPeriod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPeriodType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPeriodTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPositionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPositionUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPriceSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPriceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComPriceTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComProviderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComProviderTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComQuotes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComQuotesDay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComRight.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComRightDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSimulationAccountOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSimulationSymbolOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSplitDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComStreamingRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbolCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbolDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbolType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbolTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComSymbolTypeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTimeInForce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTimeInForceDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTimerEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTimeSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTMEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTMTraceSwitch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTraceLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTraceLevelDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComTrackOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComValuesCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComVolumeSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\IComYahooOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Bar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Bars.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\BarUpdateEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\BarUpdateEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Bytes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataFileHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DoubleSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IDoubleSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Period.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PeriodType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PeriodTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PeriodTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PriceSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PriceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PriceTypeDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\PriceTypeId.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Quotes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\QuotesDay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\QuotesRequest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\TimeSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\VolumeSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gui\DataGridComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndicatorBase\IndicatorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndicatorBase\IndicatorCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndicatorBase\IndicatorSeries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndicatorBase\ParameterAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndicatorBase\PropertyType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TreeChart\TeeChart.csproj">
+      <Project>{E63A8A80-C599-42BB-9085-BAC58E6777FA}</Project>
+      <Name>TeeChart</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Kernel\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kernel\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\ChartControl.resx">
+      <DependentUpon>ChartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\ChartForm.resx">
+      <DependentUpon>ChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\IndicatorSelectForm.resx">
+      <DependentUpon>IndicatorSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

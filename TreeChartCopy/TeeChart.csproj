@@ -1,0 +1,687 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="A23D6BA4-EB03-4A5C-AFC6-4BB33C3D3A14">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="TeeChart" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="TeeChart" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Design" AssemblyName="System.Design" HintPath="System.Design.dll" />
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Editor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Languages\ITranslator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Texts.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Languages\English.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\SeriesSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\DataGroup.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\ChartAggregate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\DataSeriesSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\SummarySource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\SingleRecordSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\TextField.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\TextFieldCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\TextSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\SeriesDataAdapter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Data\XmlSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\CCIFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\CLVFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\CompressOHLCFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\CustomFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\FunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\MovingAverageFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\OBVFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PVOFunctionEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ChartGallery.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\GalleryByType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GalleryPanel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\IChart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\TChart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\AreaSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ArrowSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\BarSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\BezierSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\BoxSeriesEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\CalendarSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\CandleSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\CircledSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\PolarSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ClockSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\Grid3DSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ColorGridSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ContourSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\CustomSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\DonutSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ErrorSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PenEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\FastLineSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\FunnelSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\GanttSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\GaugesSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\HighLow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\HistogramSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ImageBarSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\MapSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\PieSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\Point3DSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\PointSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SeriesPointer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\PointFigure.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\PyramidSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SeriesEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SeriesMarksEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\ShapeSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\SmithSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\StackBarSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\SurfaceSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\TowerSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\TriSurfaceSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\Vector3DSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\VolumeSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Series\WaterfallSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\AnnotationEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\AxisToolEdit.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\AxisArrowEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ColorBandEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ColorLineEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ToolSeriesEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\CursorEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\DragMarksEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\DragPointEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\DrawLineEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ExtraLegendEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\GanttToolEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\GridBandEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\GridTransposeEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ImageEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\MarksTipEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\NearestPointEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\PieToolEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\RotateEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\SeriesAnimationEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ToolsEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Tools\ToolsGallery.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AboutBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AspectEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AxesEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AxisEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AxisIncrement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AxisLabelsEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\AxisMaxMin.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\BevelEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\BrushEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PictureDialog.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ButtonColor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ButtonPen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ChartEditorTabs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ITeeEventListener.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ChartEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ColorEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\CustomShapeEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\BaseSourceEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\DatabaseEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\DesignTimeOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\DialogEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\EditorUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\GeneralEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\GradientEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ImportEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\LegendEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PageEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PanelEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PeriodEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PreviewPanelEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\PrintPreview.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SelectListForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\ShadowEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SingleSourceEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\SummaryEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\TextEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\TextInput.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\TextSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\TitleEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors\WallEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\BMPOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\EmfOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\ExportEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\ExportEditors.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\BitmapEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\MetafileEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\JPEGEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\PNGEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\GIFEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\TIFFEditor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\SerializeBinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\ExportFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\Exports.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\DataExport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\DataExportFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\XMLFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\TextFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\HTMLFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\ExcelFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\TemplateExport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\ImageExport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\PictureFormats.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\ImageFormats.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\ImageExportFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\BitmapFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\MetafileFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\JPEGFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\PNGFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\GIFFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\TIFFFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\VMLFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Export\SVGFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Import\Imports.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Import\TemplateImport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\GIFOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\JPEGOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\PCXOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\PNGOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.Export\TIFFOptions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\PeriodStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\PeriodAligns.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\TeeBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Function.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Moving.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\MovingAverage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Add.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\ManySeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Subtract.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Multiply.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Divide.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\High.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Low.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Average.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Count.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Cumulative.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Momentum.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\MomentumDivision.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\ExpAverage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\ExpMovAverage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CCIFunction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CLVFunction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CompressGetDateHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CompressionPeriod.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CompressOHLC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CompressGetDateEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CrossPoints.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CalculateEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Custom.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\CalculateEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\DownSamplingMethod.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\DownSampling.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\OBVFunction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Performance.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\PVOFunction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\RootMeanSquare.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Smoothing.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Spline.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\StdDeviation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Functions\Stochastic.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MultiAreas.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Series.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\BaseLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Custom.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Area.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Points.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Arrow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomBar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Bar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Bar3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\BarJoin.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Bezier.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Bubble.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Calendar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Shape.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\TextShape.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesOHLCPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\OHLC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CandleStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Candle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Circular.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ClockStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomPolar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Custom2DPolar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Clock.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Custom3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Custom3DPalette.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Custom3DGrid.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ColorGrid.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\LevelLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\TempLevel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ContourLevel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ContourLevels.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Sides.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Contour.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\PointerStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesPointer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomStack.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesXYPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesXYZPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\GridPalette.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\PaletteStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\PaletteList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MultiBars.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\BarStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Box.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HorizBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Pie.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Shadow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Donut.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ErrorStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ErrorWidthUnits.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\CustomError.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Error.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ErrorBar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\FastLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Funnel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Gantt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\GaugesChangeHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HandStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Gauges.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HighLow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Histogram.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HorizArea.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HorizBar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Line.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HorizLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ImageBar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\LinePoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Map.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\PieOtherStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Points3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\PointFigure.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Polar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Pyramid.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Radar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ShapeXYStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ShapeStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ShapeTextVertAlign.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ShapeTextHorizAlign.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Shape.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Smith.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SurfaceStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Surface.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\TowerStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Tower.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\TriSurface.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Vector3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Volume.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Waterfall.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\WindRose.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AnnotationPositions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\Callout.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AnnotationCallout.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\Tool.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\Annotation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AxisArrowPosition.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ToolAxis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AxisArrow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ToolSeries.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ChartImage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ColorBand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ColorLineToolOnDragEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ColorLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorToolStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorClicked.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorChangeEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorGetAxisRectEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorTool.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorChangeEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\CursorGetAxisRectEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DragMarks.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DragPointStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DragPointEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DragPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLineStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLineHandle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLineEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLineSelectingEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLines.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\DrawLineItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ExtraLegend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttBarPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttDragEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttResizeEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttTool.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttDragEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GanttResizeEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GridBand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\GridTranspose.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\MarksTipMouseAction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\MarksTipGetTextEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\MarksTip.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\MarksTipGetTextEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\NearestPointStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\NearestPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\PageNumber.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\PieToolStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\PieTool.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\RotateStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\Rotate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\SeriesAnimation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AnimationStepEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AnimationStepEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Web\TempChartStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Web\WebChart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Web\TeeChartImgGen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisLabelAlign.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisLabelStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisLabels.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisLabelsItems.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisLabelItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\AxisTitle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\PositionUnits.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Axis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\ChartPen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\CustomAxes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\DepthAxis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Axes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Aspect.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\PointDouble.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\PointXYZ.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Point3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Triangle3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Graphics3D.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Graphics3DGdiPlus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\ChartBrush.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Gradient.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\ChartFont.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\BevelStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Bevel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\ImageMode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\ShapeSize.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\TextShapeStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\TextShapePosition.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\TeeEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\View3DEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Graphics3DVec.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Graphics3DSVG.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Drawing\Graphics3DVML.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\PaintChartEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ChartPrintEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ClickedParts.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\MouseEventKinds.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Chart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\TeeChartException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\TeeEventListeners.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\TeeMouseEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\EditSeriesEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ChartListBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Commander.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendSymbolPosition.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendSymbolSize.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendSymbol.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendTextStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\LegendAlignments.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Legend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Page.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\PanelMarginUnits.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Panel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\PrintMarginUnits.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ChartPrintJob.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Margins.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Printer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ValueListOrder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ValueList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\StringList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ColorList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ValuesLists.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\HorizontalAxis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\VerticalAxis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\GetSeriesMarkEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesEventStyle.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MarksStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\ArrowHeadStyles.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MarksCallout.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MarksItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\MarksItems.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Styles\SeriesMarks.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetAxisLabelEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetNextAxisLabelEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendRectEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendPosEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendTextEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\SerializeEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\SerializeEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetAxisLabelEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetNextAxisLabelEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendRectEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendTextEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\GetLegendPosEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Title.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Header.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Footer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\ToolsCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\BeforeDrawSeriesEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Tools\AfterDrawEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\DateTimeSteps.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Utils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Wall.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Walls.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ZoomScroll.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ScrollModes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Scroll.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\ZoomDirections.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart\Zoom.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Steema.TeeChart.Editors.PenEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.ImportEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.SummaryEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Radar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ToolSeriesEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.MarksTipEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.NearestPoint.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.BarJoin.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Vector3D.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.LinePoint.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.DesignTimeOptions.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.tchartnetlogo.png" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.ExtraLegend.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.BevelEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.ErrorBar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.ImagePoint.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.PanelEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.PreviewPanelEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.WaterfallSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.DrawLineEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Surface.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Area.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Line.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.GridTranspose.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Images.Down.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Bar.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.HorizBar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.ColorGridSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.Annotation.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.AxisMaxMin.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.SmithSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.AnnotationEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.DialogEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.TriSurface.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.ImageBar.Dollar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Bar3D.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.ColorBand.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.WallEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.ContourSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.GeneralEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.GradientEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Drawing.TeeBase.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.HorizArea.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.GanttToolEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Export.JPEGOptions.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.DragMarks.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.CircledSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.ButtonColor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.HorizBox.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.SelectListForm.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Commander.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Area.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Functions.Basic.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.GridBand.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.Vector3DSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Funnel.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.BaseSourceEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.CustomShapeEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Gauges.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Images.Up.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.ColorEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.DrawLine.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.SeriesMarks.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.FastLineSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.ButtonPen.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.ChartGallery.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.ChartEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.PageNumber.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.CLVFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Custom.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Bar3D.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Shape.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Map.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Error.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.GaugesSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.PVOFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Candle.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.BarJoin.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.PolarSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Calendar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.TextEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.BarSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Pie.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Gauges.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ExtraLegendEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.HighLow.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.FastLine.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Web.Images.WebChart.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.aboutback.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.RotateEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.HistogramSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.OBVFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.Editor.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.GalleryByType.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.CandleSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.DonutSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.SeriesAnimation.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.CompressOHLCFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.AspectEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.CustomSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.NearestPointEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Gantt.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Points3D.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ToolsEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.AxisToolEdit.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.TChart.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.LegendEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.MovingAverageFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.BrushEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Waterfall.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.PageEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.GridBand.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.ClockSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.Grid3DSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.BoxSeriesEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.DeltaPoint.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Points.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.TitleEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.PointFigure.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Bubble.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.ShapeSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.AxisArrow.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.PieSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.TextSource.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Export.ExportEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Axis.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ColorBandEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Data.Images.SingleRecordSource.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.ArrowSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Data.Images.TextSource.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.Rotate.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.AxisEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Arrow.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.PointSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ColorLineEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Vector3D.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Clock.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.ButtonColor.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.FunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.SeriesEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.DragPointEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.GanttTool.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.AxisArrowEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.MarksTip.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Smith.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.PrintPreview.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.SurfaceSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.AxesEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.Commander.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.Axis.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Bar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.WindRose.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.ChartListBox.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.HorizLine.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.ImageBar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.ChartImage.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.BigCandle.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Pyramid.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.SeriesMarksEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ImageEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Functions.DownSampling.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Export.BMPOptions.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.Waterfall.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Volume.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.ToolsGallery.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.SeriesPointer.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.TowerSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.TChart.ico" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.ShadowEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.DatabaseEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Histogram.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Polar.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.GridBandEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.ColorLine.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.SeriesAnimationEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.AreaSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.CCIFunctionEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.ColorGrid.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Bezier.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.HighLow.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.PieTool.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.DragPoint.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Tools.ToolsIcons.CursorTool.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Tower.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Functions.Images.BasicFunction.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.MapSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Chart.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Series.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Arrow.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Pie.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.DragMarksEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Images.ButtonPen.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Donut.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Contour.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Series.Point3DSeries.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Styles.SeriesIcons.Box.bmp" BuildAction="EmbeddedResource" />
+        <File RelPath="Steema.TeeChart.Editors.Tools.CursorEditor.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

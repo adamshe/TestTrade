@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6696521E-9432-4459-B73C-9FEFAC9FD468}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>iTrading.Gui</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iTrading.Gui</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/TradeMagic.Gui/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\CommonBin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iTrading.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountValues.resx">
+      <DependentUpon>AccountValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CboeConfirmForm.resx">
+      <DependentUpon>CboeConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectOptions.resx">
+      <DependentUpon>ConnectOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataRecorderForm.resx">
+      <DependentUpon>DataRecorderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Executions.resx">
+      <DependentUpon>Executions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportHistoricalDataForm.resx">
+      <DependentUpon>ExportHistoricalDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportMarketDataForm.resx">
+      <DependentUpon>ExportMarketDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportMarketDepthForm.resx">
+      <DependentUpon>ExportMarketDepthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoricalDataForm.resx">
+      <DependentUpon>HistoricalDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportHistoricalDataForm.resx">
+      <DependentUpon>ImportHistoricalDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportMarketDataForm.resx">
+      <DependentUpon>ImportMarketDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportMarketDepthForm.resx">
+      <DependentUpon>ImportMarketDepthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookupSymbol.resx">
+      <DependentUpon>LookupSymbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookupSymbolForm.resx">
+      <DependentUpon>LookupSymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketData.resx">
+      <DependentUpon>MarketData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketDataForm.resx">
+      <DependentUpon>MarketDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketDepth.resx">
+      <DependentUpon>MarketDepth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketDepthForm.resx">
+      <DependentUpon>MarketDepthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreConnectionOptionsForm.resx">
+      <DependentUpon>MoreConnectionOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreCTConnectOptionsForm.resx">
+      <DependentUpon>MoreCTConnectOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MorePatsConnectOptionsForm.resx">
+      <DependentUpon>MorePatsConnectOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsItems.resx">
+      <DependentUpon>NewsItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsItemsForm.resx">
+      <DependentUpon>NewsItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry.resx">
+      <DependentUpon>OrderEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderHistory.resx">
+      <DependentUpon>OrderHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatsWizard.resx">
+      <DependentUpon>PatsWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Positions.resx">
+      <DependentUpon>Positions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceUpDown.resx">
+      <DependentUpon>PriceUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetSimAccountForm.resx">
+      <DependentUpon>ResetSimAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSymbol.resx">
+      <DependentUpon>SelectSymbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleQuote.resx">
+      <DependentUpon>SimpleQuote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulationControlCenter.resx">
+      <DependentUpon>SimulationControlCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SymbolsForm.resx">
+      <DependentUpon>SymbolsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TMDataGrid.resx">
+      <DependentUpon>TMDataGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceLog.resx">
+      <DependentUpon>TraceLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceLogForm.resx">
+      <DependentUpon>TraceLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountValues.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CboeConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnStyle.cs" />
+    <Compile Include="ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridNoActiveCellColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataRecorderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Executions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportHistoricalDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportMarketDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportMarketDepthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricalDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportHistoricalDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportMarketDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportMarketDepthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookupSymbol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LookupSymbolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarketData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MarketDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarketDataGridRow.cs" />
+    <Compile Include="MarketDepth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MarketDepthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreConnectionOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreCTConnectOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MorePatsConnectOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatsWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Positions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PriceUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResetSimAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RowDeletingEventArgs.cs" />
+    <Compile Include="RowDeletingEventHandler.cs" />
+    <Compile Include="SelectedSymbolChangedEventHandler.cs" />
+    <Compile Include="SelectSymbol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimpleQuote.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SimulationControlCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SymbolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TMDataGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TraceListener.cs" />
+    <Compile Include="TraceLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraceLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iTrading.Mbt\iTrading.Mbt.csproj">
+      <Project>{B594EC5A-5110-444E-A2EC-6C34F24BAB07}</Project>
+      <Name>iTrading.Mbt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iTrading.Pats\iTrading.Pats.csproj">
+      <Project>{6CF03199-0E82-44C1-AC88-E28E9B352C67}</Project>
+      <Name>iTrading.Pats</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

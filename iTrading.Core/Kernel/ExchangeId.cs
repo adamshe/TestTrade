@@ -1,0 +1,71 @@
+namespace iTrading.Core.Kernel
+{
+    using System;
+
+    /// <summary>
+    /// Identifies an exchange or order routing system.
+    /// </summary>
+    public enum ExchangeId
+    {
+        Ace,
+        Amex,
+        Arca,
+        Belfox,
+        Box,
+        Brut,
+        BTrade,
+        Cfe,
+        Default,
+        ECbot,
+        Eurex,
+        EurexSW,
+        EurexUS,
+        Fta,
+        Hkfe,
+        IBIdeal,
+        IBTmbr,
+        IBVwap,
+        Idem,
+        Inca,
+        Ise,
+        Island,
+        Globex,
+        Liffe,
+        Lse,
+        Me,
+        Meff,
+        Monep,
+        Nnm,
+        Nqlx,
+        Nscm,
+        Nymex,
+        Nyse,
+        Oes,
+        One,
+        Opra,
+        Ose,
+        OtcBB,
+        Phlx,
+        Pse,
+        Redi,
+        SDot,
+        Sfe,
+        Sfx,
+        Sgx,
+        Snfe,
+        Soes,
+        Swb,
+        Swx,
+        Tse,
+        Tsx,
+        TsxV,
+        VirtX,
+        Xetra,
+        IBIdealPro,
+        Nybot,
+        Cboe,
+        Nasdaq,
+        Caes
+    }
+}
+
